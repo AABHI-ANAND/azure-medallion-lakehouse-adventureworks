@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "Project-AdventureWorks-Anand3011"
+        },
+        "ADF_bronze_metadata_accountKey": {
+            "value": ""
+        },
+        "AzureDataLakeStorage_AdvW_accountKey": {
+            "value": ""
+        },
+        "ADF_bronze_metadata_properties_typeProperties_url": {
+            "value": "https://adfadvdataset.dfs.core.windows.net/"
+        },
+        "AzureDataLakeStorage_AdvW_properties_typeProperties_url": {
+            "value": "https://adfadvdataset.dfs.core.windows.net/"
+        },
+        "HttpServer1_properties_typeProperties_url": {
+            "value": "https://raw.githubusercontent.com"
+        }
+    }
+}
